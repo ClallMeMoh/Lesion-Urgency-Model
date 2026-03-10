@@ -1,0 +1,5 @@
+backbone: convnext_small
+pretrained: true
+dropout: 0.3
+num_classes: 3
+use_metadata: false

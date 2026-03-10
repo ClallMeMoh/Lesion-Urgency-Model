@@ -1,0 +1,16 @@
+defaults:
+  - model: efficientnet
+  - data: isic
+  - train: default
+  - _self_
+
+run_name: run_001
+output_dir: runs
+reports_dir: reports
+_smoke_: false
+
+triage:
+  t_high: 0.6
+  t_low: 0.3
+  tune_thresholds: true
+  target_sensitivity: 0.90

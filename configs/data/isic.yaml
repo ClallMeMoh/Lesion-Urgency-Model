@@ -1,0 +1,13 @@
+labels_csv: data/labels.csv
+images_dir: "images/isic images"
+splits_dir: data/splits
+image_size: 224
+num_workers: 0
+batch_size: 32
+pin_memory: false
+urgency_mapping:
+  urgent:
+    - malignant
+  monitor:
+    - benign
+  unmapped_behavior: uncertain

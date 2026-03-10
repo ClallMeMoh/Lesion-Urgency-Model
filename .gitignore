@@ -1,0 +1,35 @@
+# Large data files (not for git)
+images/
+data/images/
+runs/
+metadata/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Model artifacts
+*.pth
+*.ckpt
+
+# Hydra / config outputs
+.hydra/
+outputs/
+
+# IDE / OS
+.ruff_cache/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+.claude/

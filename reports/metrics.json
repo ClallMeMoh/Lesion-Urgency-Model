@@ -1,0 +1,34 @@
+{
+  "accuracy": 0.8614072494669509,
+  "macro_f1": 0.5196261590008536,
+  "urgent_sensitivity": 0.8888888888888888,
+  "urgent_specificity": 0.7193396226415094,
+  "roc_auc": 0.9012054507337526,
+  "pr_auc": 0.5689458051349812,
+  "ece": 0.06686400291698574,
+  "abstain_rate": 0.010660980810234541,
+  "confusion_matrix": [
+    [
+      40,
+      5,
+      0
+    ],
+    [
+      112,
+      298,
+      5
+    ],
+    [
+      7,
+      2,
+      0
+    ]
+  ],
+  "n_samples": 469,
+  "macro_f1_ci_lower": 0.4545940433877886,
+  "macro_f1_ci_upper": 0.5887466991248941,
+  "urgent_sensitivity_ci_lower": 0.7905153508771929,
+  "urgent_sensitivity_ci_upper": 0.9764811738648947,
+  "roc_auc_ci_lower": 0.8560247914492715,
+  "roc_auc_ci_upper": 0.9375764721719293
+}

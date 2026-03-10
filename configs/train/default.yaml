@@ -1,0 +1,11 @@
+max_epochs: 30
+lr: 0.0001
+weight_decay: 0.0001
+optimizer: adamw
+scheduler: cosine
+loss: cross_entropy
+label_smoothing: 0.1
+class_weights: true
+gradient_clip_val: 1.0
+precision: "16-mixed"
+seed: 42

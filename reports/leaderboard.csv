@@ -1,0 +1,10 @@
+run_name,timestamp,backbone,macro_f1,urgent_sensitivity,urgent_specificity,roc_auc,ece,t_high,t_low,best_epoch,git_hash,config_hash
+smoke_test,2026-03-01T09:51:05.130827+00:00,efficientnet_b3,0.24,0.0,1.0,nan,0.3229,0.6,0.3,-1,unknown,ed361575
+baseline_b0,2026-03-01T10:26:57.511779+00:00,efficientnet_b0,0.4705,0.4531,0.9754,0.8974,0.1446,0.6,0.3,7,unknown,d7eceee0
+run_002_focal,2026-03-01T11:42:15.329451+00:00,efficientnet_b0,0.5411,0.4062,0.9803,0.93,0.0302,0.6,0.3,6,unknown,c4c7e21a
+run_003_focal_nodrop,2026-03-02T09:23:00.074669+00:00,efficientnet_b0,0.4986,0.5312,0.9606,0.9033,0.0796,0.6,0.3,9,unknown,97325dac
+run_003_gpu_b3_focal,2026-03-02T09:46:14.106386+00:00,efficientnet_b3,0.5971,0.5156,0.9631,0.9093,0.0442,0.6,0.3,6,unknown,491a3c38
+run_004_b3_focal_lr,2026-03-02T10:26:41.699173+00:00,efficientnet_b3,0.5133,0.6094,0.936,0.8949,0.0867,0.6,0.3,11,unknown,44c6a76b
+run_005_b3_ce,2026-03-02T10:52:04.750121+00:00,efficientnet_b3,0.4584,0.5156,0.9433,0.8379,0.1327,0.6,0.3,19,unknown,e14d9baa
+run_006_b3_focal_300,2026-03-02T11:50:50.333993+00:00,efficientnet_b3,0.4871,0.5469,0.9236,0.8879,0.0804,0.6,0.3,9,unknown,94eac61f
+run_007_b0_augmented,2026-03-02T12:58:40.239705+00:00,efficientnet_b0,0.5128,0.5156,0.9729,0.8927,0.1446,0.6,0.3,25,unknown,eed16375

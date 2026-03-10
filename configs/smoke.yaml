@@ -1,0 +1,18 @@
+defaults:
+  - default
+  - _self_
+
+run_name: smoke_test
+_smoke_: true
+
+data:
+  batch_size: 4
+  num_workers: 0
+  pin_memory: false
+
+train:
+  max_epochs: 1
+  precision: "32"
+
+triage:
+  tune_thresholds: false
