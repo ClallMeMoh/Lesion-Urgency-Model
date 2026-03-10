@@ -33,3 +33,4 @@ Thumbs.db
 # Jupyter
 .ipynb_checkpoints/
 .claude/
+claude_urgency.md
